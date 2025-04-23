@@ -1,0 +1,75 @@
+p{
+    font-size: 18px;
+}
+#savings_container{
+    background-color: #f7f7fd;
+    margin-top: 50px;
+}
+
+.all_cards{
+    width: 80%;
+    height: auto;
+    margin-top: 90px;
+}
+#forex_hero{
+    margin-top: 0;
+    position: relative;
+    top: -50px
+}
+
+#credit_hero{
+    width: 50%;
+    height: auto;
+}
+.credit_hero_img_container{
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+.savings_accounts_hero_text{
+    display: grid;
+    align-items: center;
+    margin-top: 90px;
+    height: 450px;
+    text-align: center;
+}
+.hero_text_1{
+    font-size: 40px;
+    color: #8191D9;
+}
+.hero_text_2{
+    font-weight: 300;
+}
+.benefit_item{
+    border-radius: 10px;
+    width: 90%;
+    height: 250px;
+    margin: auto;
+}
+
+.normal_white_clr{
+    background-color:#fff;
+    color: #000;
+    display: grid;
+    align-items: center;
+
+}
+.secondary_header{
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.secondary_text{
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+}
+.normal_purple_clr{
+    background-color: rgba(153, 145, 237, 0.893);
+    color:#fff;
+    display: grid;
+    align-items: center;
+}
+

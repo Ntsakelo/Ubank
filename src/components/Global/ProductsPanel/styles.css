@@ -1,0 +1,214 @@
+.tab_panel{
+    margin-top: 50px;
+}
+
+.account_container{
+    min-height: 500px;
+    height: fit-content;
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.card_type_container{
+    width: 200px;
+    height: 100px;
+    float: right;
+    position: relative;
+    top: -30px;
+    margin-right: 30px;
+}
+
+.account_container:hover .card_type_container{
+    transform: translateY(-10px);
+    transition: 0.2s linear all;
+}
+
+.account_container .card_type_container{
+    transform: translateY(0px);
+    transition: 0.2s linear all;
+ }
+
+ .card_img{
+    width: 100%;
+    height: auto;
+ }
+
+ .account_name{
+    font-weight: 400;
+    font-size: 22px;
+    position: relative;
+    top: 50px;
+    width: 40%;
+    margin-left: 20px;
+}
+
+.account_description{
+    margin-top: 70px;
+    font-weight: 300;
+    width: 90%;
+    margin-left: 20px;
+}
+.fees_income_container{
+    height: 100px;
+}
+.name_text_underlined{
+    border-bottom: 2px solid #8F87F1;
+ }
+ 
+#price,
+#income,
+#interest,
+#credit_limit,
+#deposit,
+#funds_access,
+#interest_rate,
+#admin_fee
+{
+    font-size: 25px;
+    font-weight: 500;
+}
+ .monthly_fee,
+ .monthly_income,
+ .interest,
+ .credit_limit,
+ .deposit,
+.funds_access,
+.interest_rate,
+.admin_fee
+ {
+    font-weight: 300;
+    margin-left: 20px;
+    display: inline;
+    text-align: left;
+ }
+ .monthly_fee,
+ .credit_limit,
+ .deposit,
+ .interest_rate{
+    float: left;
+ }
+ .monthly_income,
+ .interest,
+ .admin_fee,
+ .funds_access
+ {
+    float: right;
+    margin-right: 20px;
+ }
+
+ .actions_container{
+    margin-top: 50px;
+ }
+.actions_container *{
+    width: 40%;
+    display: inline;
+    float: inline-start;
+    box-sizing: border-box;
+    margin: 20px;
+}
+ .action_cta{
+    /* display: block; */
+    /* margin: auto; */
+    /* width: 50%; */
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+ }
+
+ .qualify_cta{
+    background-color: #fff;
+    color:#8F87F1;
+    border: 1px solid #8F87F1;
+ }
+
+ .apply_cta{
+    background-color: #8F87F1;
+    color:#fff;
+    border: 1px solid #8F87F1;
+ }
+
+ #bank_accounts_head{
+    font-weight: 400;
+    text-align: center;
+
+ }
+.main_text{
+    font-weight: 300;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+ @media screen  and (width < 50rem) {
+    .card_type_container{
+        display: none;
+    }
+    .account_name{
+        width: 100%;
+        position: static;
+        padding-top: 30px;
+    }
+    .account_description{
+        margin-top: 0;
+    }
+
+ }
+
+ @media screen and (width <= 56.25rem) {
+     .all_cards{
+        display: block;
+        margin: auto;
+     }
+
+     #savings_hero_image_container{
+        padding-top: 30px;
+        padding-bottom: 30px;
+     }
+     .savings_accounts_hero_text{
+        height: fit-content;
+     }
+    .monthly_fee,
+    .interest,
+    .credit_limit,
+    .monthly_income,
+    .deposit,
+    .funds_access,
+    .interest_rate,
+    .admin_fee
+    {
+       display: block;
+       float: none;
+       text-align: center;
+    } 
+    .fees_income_container{
+       
+        height: fit-content;
+        margin-bottom: 0;
+    }
+    .actions_container{
+        padding-top: 30px;
+        margin-top: 0;
+    }
+    .account_name{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (width < 58.75rem) {
+    .actions_container *{
+        display: block;
+        float: none;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+}

@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.application_form{
+width:85%;
+  margin: auto;
+}
+
+.form_header{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.form_text{
+  font-weight: 300;
+}
+
+.form_field{
+  display: block;
+  width: 95%;
+  margin:auto
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}
+
+.form_main_cta{
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 10px;
+  border:none;
+  background-color: #827bd4;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 20px;
+  outline: none;
+}

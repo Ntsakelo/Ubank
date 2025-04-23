@@ -1,0 +1,28 @@
+.navigation{
+    height: 80px;
+    background-color: #fff;
+    display: grid;
+    align-items: center;
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    z-index: 1;
+    /* border-bottom: 1px solid #dadada; */
+}
+
+.nav_link{
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.login_container{
+    height: 60px;
+    display: inline;
+    border: 1px solid #fff;
+    width: 100px;
+}

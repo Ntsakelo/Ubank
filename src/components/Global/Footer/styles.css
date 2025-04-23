@@ -1,0 +1,32 @@
+.footer_header{
+    font-weight: 500;
+    color:#232323;
+}
+.footer_link{
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color:#232323;
+}
+
+.footer{
+    padding: 25px;
+    background-color: #fff;
+}
+.footer_logo_container{
+    display: grid;
+    align-items: center;
+    height: 100%;
+}
+.footer_logo{
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (width <= 56.25rem) {
+   *{
+    text-align: center;
+   }    
+}

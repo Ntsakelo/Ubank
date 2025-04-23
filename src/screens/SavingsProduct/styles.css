@@ -1,0 +1,132 @@
+#product_container{
+    background-color: #f7f7fd;
+}
+.product_name{
+    font-weight: 400;
+    text-align: center;
+    font-size: 30px;
+}
+
+.product_image_container{
+    width: 70%;
+    height: 300px;
+    display: grid;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.product_image{
+    width: 100%;
+    height: auto;
+}
+
+.product_details{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+.details{
+    height: 250px;
+    border-left: 1px solid #eae7e7;
+    width: 95%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.product_description{
+    font-weight: 300;
+}
+
+.product_monthly_fee,.product_monthly_income{
+    font-size: 24px;
+    display: inline;
+    
+   
+}
+.product_monthly_income{
+    float: right;
+}
+.product_monthly_fee{
+    float: left;
+}
+.product_text_styled{
+    font-size: 12px;
+   
+}
+
+.product_fees_income{
+    height: 100px;
+}
+
+.action_link{
+    text-decoration: none;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    
+}
+
+.call_me_link,.learn_more_link{
+    border: 1px solid #8F87F1;
+    color:#8F87F1;
+}
+
+.open_now_link{
+    background-color: #8F87F1;
+    color:#fff;
+    border: 1px solid #8F87F1;
+}
+
+.benefits_head,.learn_more_head{
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.benefit{
+    height: 200px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.content_zone{
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 50px;
+  
+}
+.baner_img_container{
+    height: 100%;
+    width: 100%;
+}
+.banner_img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.banner_text{
+    font-weight: 300;
+    width: 90%;
+    margin: auto;
+}
+
+#learn_more_link{
+    width: 50%;
+}
+
+.banner_content{
+    display: grid;
+    align-items: center;
+    height: 100%;
+}
